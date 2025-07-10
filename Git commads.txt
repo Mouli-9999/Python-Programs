@@ -1,0 +1,19 @@
+How to push code into git hub ?
+
+cd to your path
+git init
+git add .
+git commit -m "write comments here"
+git remote add origin https://github.com/your-username/Python-Programs.git
+git push -u origin master 
+
+How to pull code from git hub?
+
+git clone https://github.com/your-username/Python-Programs.git
+
+cd to dir
+git pull origin master
+
+
+git branch - to check the branch
+git status -Check if you have uncommitted changes
